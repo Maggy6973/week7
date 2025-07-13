@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://frontend-orcin-one-23.vercel.app'
+    'https://week7frontend.vercel.app/'
 ];
 
 app.use(cors({
