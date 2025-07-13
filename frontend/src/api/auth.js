@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5550/api/auth/';
+const API_URL = 'https://week7-twil.onrender.com/api/auth/';
 
 export const register = async (userData) => {
     try {

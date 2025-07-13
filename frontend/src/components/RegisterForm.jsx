@@ -14,7 +14,7 @@ const RegisterForm = () => {
         setError('');
 
         try {
-            const response = await axios.post('http://localhost:5550/api/auth/register', { username, password });
+            const response = await axios.post('https://week7-twil.onrender.com/api/auth/register', { username, password });
             if (response.data.success) {
                 navigate('/dashboard');
             }
